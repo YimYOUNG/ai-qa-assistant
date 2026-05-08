@@ -1,7 +1,5 @@
 import requests
-
-# 替换成你的智谱API Key
-API_KEY = "7d3620c649994f2499aeb22dbd9ebab9.K1JoT9L18K4BUdt1"
+from config import API_KEY
 
 def get_ai_response(prompt):
     """调用智谱GLM-4-Flash API（免费）"""
